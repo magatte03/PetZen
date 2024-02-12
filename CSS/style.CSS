@@ -1,0 +1,89 @@
+#header{
+    display: flex;
+}
+nav{
+    display: flex;
+    margin-left: 1em;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav ul li{
+    float: left;
+    width: 8em;
+    line-height: 6em;
+    list-style: none;
+ }
+ 
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.input{
+    padding: 3%;
+    box-sizing: border-box;
+    border: none;
+    }
+#bouton{   
+    width: 7em;
+    border: none;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 1.2em;
+    border-radius: 1em;
+    background-color: rgb(255, 181, 9);
+    color: white;
+    padding: 0.5em;
+}
+#bouton:hover{
+    background-color: orange;
+ }
+ #Lorem{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3em;
+ }
+#melhor{
+    color: rgb(255, 181, 9);
+    font-size: 2.1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+.melhor2{
+    font-size: 1em;
+    text-align: justify;
+    }
+#Loremsection2{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 1.6em;
+    font-size: 2em;
+}
+.icone{
+    margin-left: 6em;
+    margin-top: 2em;
+}
+.colv2{
+    margin-right: 6em;
+  background-color: rgb(246, 244, 244);
+}
+#section3{
+    margin-top: 6em;
+}
+#section4{
+    margin-top: 6em;
+    margin-right: 6em;
+    height: 20em;
+    background-color: rgb(231, 212, 234);
+}
+.li{
+    float: left;
+    width: 8em;
+    line-height: 6em;
+    list-style: none;
+}
+.a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
