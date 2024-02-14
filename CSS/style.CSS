@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
 
+
 .body{
     padding: 0;
     margin: 0 5rem 0 5rem;
@@ -57,6 +58,11 @@ img{
     color: var(--BUTTON-BGCOLOR);
     width: 8em;
     font-size: 18px;
+    border: none;
+}
+
+.button__valide:hover{
+   background-color: rgb(255, 182, 56);
 }
 
 .div__button-valide{
@@ -104,7 +110,6 @@ img{
     color: var(--BUTTON-BGCOLOR);
     width: 10em;
     font-size: 18px;
-    
 }
 
 .section_3-p{
@@ -134,7 +139,6 @@ img{
 #section_6{
     background-color: var(--BACKGROUNDCOLOR);
     padding: 20px 0 0 50px;
-    height: 16rem;
     border-radius: 6px;
     max-width: 1400px;
     margin-top: 5em;
@@ -159,6 +163,11 @@ img{
     color: var(--BUTTON-BGCOLOR);
     width: 9em;
     font-size: 18px;
+    border: none;
+}
+
+#bouton:hover{
+    background-color: rgb(255, 182, 56);
 }
 
 #section_7 .container{
@@ -179,36 +188,70 @@ img{
     text-align: center;
     width: 9.2em;
 }
-.section8_h1{
+
+.header_section-8{
+    display: flex;
+    gap: 0.5em;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 2.5em;
 }
-.container__section8{
+
+.header_section-8 h2 em{
+  font-size: 0.7em;  
+}
+
+#section__8{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em;
-    height: 2em;
+    text-align: center;
+    font-family: sans-serif;   
+    gap: 5em;
 }
 
-.section8_header{
+.article_section-8{
+    text-align: center;
+    text-align: justify;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgb(222, 222, 222);
+}
+
+#section__9{
     display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    gap: 10em;
+    padding: 3em;
 }
 
-@media screen and (min-width: 576px) {
-    .header__h1::before{
-        content: ' '
-    }
+.article_section-9{
+    font-family: sans-serif;  
+}
 
-    .header__h1::after{
-        content: ' '
-    }
+.paragraphe_section-9{
+ margin-bottom: 2em;
 }
-@media(max-width: 768px){
-        .boxes .container{
-        display: block;
-        text-align: center;
-    }
+
+.h1_section-9{
+    font-size: 2em;
 }
+
+.input_section-9{
+    width: 20em;
+    height: 3rem;
+    border-radius: 2em;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+#section__10{
+    background-color: var(--BACKGROUNDCOLOR);
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.div__section10{
+    margin-top: 2em;
+}
+
+.figure{
+    display: flex;
+    gap: 15em;
+
+}
+
